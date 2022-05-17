@@ -9,7 +9,6 @@ body{
     min-width:100%;
 }
 .top{
-    min-height: 80vh;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +39,6 @@ img{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:50vh;
     background-color: white;
     border-radius: 10px;
     margin-left:50px;
@@ -91,6 +89,25 @@ input:focus{
 .top .info .forgot a:hover{
     border-bottom: 1px solid #1877f2;
 }
+.bottom .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:5vh 15vw;
+    color: #8a8d91;
+}
+
+.bottom .content a{
+    color: #8a8d91;
+    font-size: 12px;
+}
+.bottom .links{
+    border-top:1px solid #dddfe2;
+}
+.bottom .content div{
+    padding:1vh 0;
+}
 @media only screen and (max-width: 850px){
     .top{
         flex-direction: column;
@@ -99,23 +116,4 @@ input:focus{
         padding:20px;
         text-align: center;
     }
-    .info .top{
-        min-width: fit-content;
-    }
-    .card-info{
-        height: fit-content;
-    }
-}
-
-.bottom .content{
-    display: flex;
-    flex-direction: column;
-    height: 20vh;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.bottom .content a{
-    color: #8a8d91;
-    font-size: 12px;
 }
