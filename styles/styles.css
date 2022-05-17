@@ -4,8 +4,12 @@
     box-sizing: border-box;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
+body{
+    display:inline-block;
+    min-width:100%;
+}
 .top{
-    height: 90vh;
+    min-height: fit-content;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +48,7 @@ img{
 }
 input{
     font-size: 17px;
-    padding: 14px 16px;
+    padding: 2vh 2vw;
     width: 370px;
     border-radius: 7px;
     border:1px solid #dddfe2;
@@ -92,7 +96,10 @@ input{
         padding:20px;
         text-align: center;
     }
-    .logo{
-        margin-left:0;
+    .info .top{
+        min-width: fit-content;
+    }
+    .card-info{
+        height: fit-content;
     }
 }
