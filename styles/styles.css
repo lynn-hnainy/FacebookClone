@@ -65,3 +65,10 @@ input{
 .top .info .btn-create{
     padding:10px;
 }
+
+.top .info .forgot{
+    border-bottom: 1px solid #dddfe2;
+    width: 370px;
+    text-align: center;
+    padding: 15px 0;
+}
