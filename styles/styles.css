@@ -42,5 +42,12 @@ img{
     margin-left:50px;
     padding:5px 5px;
 }
+input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 370px;
+    border-radius: 7px;
+    border:1px solid #dddfe2;
+}
 
 
