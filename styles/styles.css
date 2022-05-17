@@ -9,7 +9,7 @@ body{
     min-width:100%;
 }
 .top{
-    min-height: fit-content;
+    min-height: 80vh;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -105,4 +105,17 @@ input:focus{
     .card-info{
         height: fit-content;
     }
+}
+
+.bottom .content{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom .content a{
+    color: #8a8d91;
+    font-size: 12px;
 }
