@@ -65,7 +65,9 @@ input{
 .top .info .btn-create{
     padding:10px;
 }
-
+.top .info .btn-create button{
+    background-color: #42b72a;
+}
 .top .info .forgot{
     border-bottom: 1px solid #dddfe2;
     width: 370px;
