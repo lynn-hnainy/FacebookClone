@@ -2,33 +2,45 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 .top{
-    height: 85vh;
+    height: 90vh;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: rgba(190, 190, 190, 0.781);
+    background-color: #dddfe2;
     padding-top:130px;
     padding-bottom:200px;
 }
 .logo{
     width: 50%;
-    padding-left:100px;
-    margin-left: 100px;
+    margin-left: 5vw;
+    padding-left:5vw ;
+}
+.logo p{
+    font-size: 25px;
+    font-weight: 500;
 }
 img{
-    width: 100%;
+    width:50%;
 }
 .info{
-    width:50%;
+    margin-right: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+.card-info{
+    width:fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:40vh;
+    height:50vh;
     background-color: white;
     border-radius: 10px;
-    margin:0 15vw;
-    padding:0 5px;
+    margin-left:50px;
+    padding:5px 5px;
 }
+
+
