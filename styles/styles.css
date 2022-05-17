@@ -53,6 +53,9 @@ input{
     border-radius: 7px;
     border:1px solid #dddfe2;
 }
+input:focus{
+    background-color: rgba(108, 154, 255, 0.527);
+}
 
 .top .info .btn button{
     font-size: 17px;
