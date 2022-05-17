@@ -79,4 +79,8 @@ input{
     font-size: 15px;
     font-weight: 500px;
     text-decoration: none;
+    color: #1877f2;
+}
+.top .info .forgot a:hover{
+    border-bottom: 1px solid #1877f2;
 }
