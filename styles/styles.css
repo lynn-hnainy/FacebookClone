@@ -84,3 +84,15 @@ input{
 .top .info .forgot a:hover{
     border-bottom: 1px solid #1877f2;
 }
+@media only screen and (max-width: 850px){
+    .top{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding:20px;
+        text-align: center;
+    }
+    .logo{
+        margin-left:0;
+    }
+}
