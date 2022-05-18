@@ -32,6 +32,10 @@ img{
     margin-right: 50px;
     padding-right: 50px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card-info{
     width:fit-content;
