@@ -8,6 +8,7 @@ body{
     display:inline-block;
     min-width:100%;
 }
+/*top section*/
 .top{
     display:flex;
     justify-content: space-between;
@@ -16,6 +17,7 @@ body{
     padding-top:130px;
     padding-bottom:200px;
 }
+/*looo part*/
 .logo{
     width: 50%;
     margin-left: 5vw;
@@ -25,9 +27,12 @@ body{
     font-size: 25px;
     font-weight: 500;
 }
+
+
 img{
     width:50%;
 }
+/*info part*/
 .info{
     margin-right: 50px;
     padding-right: 50px;
@@ -48,18 +53,7 @@ img{
     margin-left:50px;
     padding:15px;
 }
-.info .business{
-    padding-top: 20px;
-    font-size: 14px;
-}
-.info .business a{
-    font-weight: 600;
-    color: black;
-    text-decoration: none;
-}
-.info .business a:hover{
-    text-decoration: underline;
-}
+/*input elements*/
 input{
     font-size: 17px;
     padding: 2vh 2vw;
@@ -72,6 +66,38 @@ input:focus{
     background-color: rgba(108, 154, 255, 0.527);
 }
 
+/*business part*/
+.info .business{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.info .business a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.info .business a:hover{
+    text-decoration: underline;
+}
+
+/*forgot link*/
+.top .info .forgot a{
+    font-size: 15px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: #1877f2;
+}
+.top .info .forgot a:hover{
+    border-bottom: 1px solid #1877f2;
+}
+.top .info .forgot{
+    border-bottom: 1px solid #dddfe2;
+    width: 370px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/*Utilities*/
 .top .info .btn button{
     font-size: 17px;
     padding: 16px 16px;
@@ -90,22 +116,7 @@ input:focus{
 .top .info .btn-create button{
     background-color: #42b72a;
 }
-.top .info .forgot{
-    border-bottom: 1px solid #dddfe2;
-    width: 370px;
-    text-align: center;
-    padding: 15px 0;
-}
-
-.top .info .forgot a{
-    font-size: 15px;
-    font-weight: 500px;
-    text-decoration: none;
-    color: #1877f2;
-}
-.top .info .forgot a:hover{
-    border-bottom: 1px solid #1877f2;
-}
+/*bottom section*/
 .bottom .content{
     display: flex;
     flex-direction: column;
